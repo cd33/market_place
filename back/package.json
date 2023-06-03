@@ -1,0 +1,19 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "cd33",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon scripts.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "nodemon": "^2.0.22",
+    "stripe": "^12.8.0"
+  }
+}
